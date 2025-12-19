@@ -1,7 +1,7 @@
 #ifndef CPP_LOGGING_SUITE_BLOCK_H
 #define CPP_LOGGING_SUITE_BLOCK_H
 
-#include "core/Logger.h"
+#include "logger/core/Logger.h"
 #include <unordered_map>
 
 namespace logger {

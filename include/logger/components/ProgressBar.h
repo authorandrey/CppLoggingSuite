@@ -1,7 +1,7 @@
 ﻿#ifndef CPP_LOGGING_SUITE_PROGRESS_BAR_H
 #define CPP_LOGGING_SUITE_PROGRESS_BAR_H
 
-#include "core/Logger.h"
+#include "logger/core/Logger.h"
 #include <vector>
 
 namespace logger {

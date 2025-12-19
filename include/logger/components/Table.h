@@ -1,7 +1,7 @@
 #ifndef CPP_LOGGING_SUITE_TABLE_H
 #define CPP_LOGGING_SUITE_TABLE_H
 
-#include "core/Logger.h"
+#include "logger/core/Logger.h"
 #include <vector>
 #include <string>
 #include <algorithm>
@@ -22,7 +22,7 @@ namespace logger {
         template<typename... Args>
         void operator+=(Args... args) {
             std::vector<std::string> row{ std::forward<Args>(args)... };
-            add_row(std::move(row));
+            this->operator+=(std::move(row));
         }
 
     private:
