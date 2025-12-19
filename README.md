@@ -17,10 +17,10 @@
 
 ```
 logger/
+├──logger.h         # Master include file
 ├── core/
 │   ├── Color.h      # ANSI color codes and formatting
 │   ├── Logger.h     # Main logger class with log levels
-│   └── logger.h     # Master include file
 └── components/
     ├── Block.h      # Nestable and non-nestable blocks
     ├── Clock.h      # Performance timing utilities
